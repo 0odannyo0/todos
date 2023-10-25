@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todos</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/todos.css">
+
+  <!-- JS -->
+  <script src="js/todos.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="title" >行事曆</div>
+  </header>
+  <section class="content">
+    <form action="" id="my-form">
+      <div class="title">添加事物</div>
+      <div class="errormsg"></div>
+      <div class="format">
+        <label for="date">日期：</label>
+        <input type="date" id="date">
+      </div>
+      <div class="format">
+        <label for="time">時間：</label>
+        <input type="time" id="time">
+      </div>
+      <div class="format">
+        <label for="thing">事務：</label>
+        <input type="text" id="thing">
+      </div>
+      <input type="submit" value="Check" id="submit">
+    </form>
+    <li id="user"></li>
+  </section>
+</body>
+</html>

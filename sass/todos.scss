@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 2rem;
+  text-align: center;
+  > .title {
+    font-size: 3rem;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: white;
+  > #my-form {
+    background-color: rgb(112, 112, 112);
+    padding: 2rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    > .title {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    > .format {
+      width: 100%;
+      margin: .5rem 0;
+      display: flex;
+      flex-direction: column;
+      > label {
+        margin-bottom: .5rem;
+      }
+    }
+    > #submit {
+      padding: .5rem 1rem;
+      border-radius: 5px;
+      margin-top: .5em;
+    }
+  }
+  >#user {
+    list-style: none;
+    margin-top: 1rem;
+  }
+}
+
+// 添加
+.error {
+  margin: .5rem 0;
+  background-color: red;
+  padding: 0 1rem;
+}
+
+.font-color {
+  color: black;
+}

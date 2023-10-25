@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+header > .title {
+  font-size: 3rem;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.content > #my-form {
+  background-color: #707070;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content > #my-form > .title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.content > #my-form > .format {
+  width: 100%;
+  margin: .5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content > #my-form > .format > label {
+  margin-bottom: .5rem;
+}
+
+.content > #my-form > #submit {
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  margin-top: .5em;
+}
+
+.content > #user {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.error {
+  margin: .5rem 0;
+  background-color: red;
+  padding: 0 1rem;
+}
+
+.font-color {
+  color: black;
+}
+/*# sourceMappingURL=todos.css.map */
